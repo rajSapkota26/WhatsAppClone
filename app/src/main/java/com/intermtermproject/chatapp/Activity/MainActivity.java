@@ -119,7 +119,7 @@ public class MainActivity extends AppCompatActivity {
                                 .child("users")
                                 .child(FirebaseAuth.getInstance().getUid())
                                 .updateChildren(map);
-                        //Toast.makeText(MainActivity.this, token, Toast.LENGTH_SHORT).show();
+
                     }
                 });
 
